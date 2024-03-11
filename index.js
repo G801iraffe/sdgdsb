@@ -88,7 +88,7 @@
     await s4d.client.login('Your bot token').catch((e) => {
             const tokenInvalid = true;
             const tokenError = e;
-            if (e.toString().toLowerCase().includes("token")) {
+            if (e.toString().toLowerCase().includes("MTIxMzY3NTEwNTYyMDg2MDk1OQ.GLaUUa.HOCaRH4a2Td_ZKPKDrh5X6R1YBMgoQ3pTw_B-w")) {
                 throw new Error("An invalid bot token was provided!")
             } else {
                 throw new Error("Privileged Gateway Intents are not enabled! Please go to https://discord.com/developers and turn on all of them.")
